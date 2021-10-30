@@ -9,3 +9,4 @@ pluginManagement {
 rootProject.name = "CoffeeMachine"
 include(":androidApp")
 include(":shared")
+include(":coffeemachine")
