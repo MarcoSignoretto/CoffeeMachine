@@ -62,16 +62,6 @@ class CoffeeMachineTest {
     }
 
     @Test
-    fun givenWarmWaterButNoBeansWhenMakeCoffeeThenResultNoBeans(){
-
-    }
-
-    @Test
-    fun givenWarmWaterAndBeansWhenMakeCoffeeThenResultSuccess(){
-
-    }
-
-    @Test
     fun givenWarmWaterAndBeansWhenMakeCoffeeThenGrindAndPump(){
         waterHeaterMock.every(
             methodName = WaterHeaterMock.Method.isWaterHot
