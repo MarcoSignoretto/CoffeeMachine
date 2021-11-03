@@ -12,7 +12,7 @@ class CoffeeMachine(
     fun makeCoffee(): Result {
         if(!waterHeater.isWaterHot()) return Result.HEATING
         if(!grinder.hasCoffee()) return Result.NO_BEANS
-        grinder.grind()
+        grinder.grind(5)
         waterPump.pump()
         return Result.SUCCESS
     }

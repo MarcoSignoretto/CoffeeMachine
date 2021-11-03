@@ -8,7 +8,8 @@ interface Grinder {
     fun hasCoffee(): Boolean
 
     /**
-     * grind beans for the coffee
+     * grind X grams of coffee beans
+     * @param grams: grams of coffee beans to grind
      */
-    fun grind()
+    fun grind(grams: Int)
 }
